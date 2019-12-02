@@ -1,1 +1,25 @@
-# Terminal_Setup
+# Marc's Terminal Setup
+
+## Install iTerm2 - macOS Terminal Replacement
+https://iterm2.com/
+
+## Install oh-my-zsh 
+```shell
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+## Set iTerm2 Color Preset to Solarized
+1. Open iTerm 2, open Preferences, click on the "Profiles" icon in the preferences toolbar, 
+2. Select the "colors" tab. 
+3. Click on the "load presets" and select "import...". 
+4. Select the Solaris Light or Dark theme file.
+
+## Set iTerm2 theme 
+1. Open iTerm 2 
+```shell
+nano .zshrc
+```
+2. Set ZSH_THEME=agnoster
+3. exit nano
+
+## Install Patched fonts
+https://github.com/powerline/fonts
