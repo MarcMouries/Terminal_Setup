@@ -23,3 +23,11 @@ nano .zshrc
 
 ## Install Patched fonts
 https://github.com/powerline/fonts
+
+https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
+
+Open the downloaded font and press "Install Font".
+
+Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Change Font), best to do this for "Font" and for "Non-ASCII Font".
+
+Restart iTerm2 for all changes to take effect.
